@@ -8,7 +8,7 @@ namespace IntroToOOP
 {
     class Cat
     {
-        //I need STATES
+        //STATES
 
 
         //fields
@@ -26,7 +26,7 @@ namespace IntroToOOP
        
 
 
-        //I need BEHAVIORS
+        //BEHAVIORS
 
         //Constructors
         public Cat()
@@ -50,7 +50,13 @@ namespace IntroToOOP
                 isHungry = false;
             }
 
-            Console.WriteLine("is the cat hungry? " + isHungry);
+            Console.WriteLine("Is the cat hungry? " + isHungry);
+        }
+
+        public void Meow()
+        {
+            Console.WriteLine("\a");
         }
     }
+
 }
